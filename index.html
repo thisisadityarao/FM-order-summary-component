@@ -7,6 +7,11 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
@@ -27,20 +32,24 @@
 
 <body>
   <main>
-    <article>
-      <img src="" alt="">
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      <section>
-        <img src="" alt="">
-        <span>Annual Plan</span>
-        <span>$59.99/year</span>
-        <a href="">Change</a>
-      </section>
-      <button>Proceed to Payment</button>
-      <button>Cancel Order</button>
+    <article class="order">
+      <img src="" alt="" class="order-img">
+      <div class="order-text">
+        <h1>Order Summary</h1>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+        <section class="plan">
+          <img src="" alt="">
+          <div class="plan-info">
+            <span class="plan-time">Annual Plan</span>
+            <span class="plan-price">$59.99/year</span>
+          </div>
+          <a href="#">Change</a>
+        </section>
+        <button class="payment">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
+      </div>
     </article>
   </main>
 
